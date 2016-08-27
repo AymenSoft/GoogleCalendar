@@ -46,6 +46,7 @@ public class MainActivity extends AppCompatActivity {
         } catch (ParseException e) {
             e.printStackTrace();
         }
+
         calStart=dateFormatStart.getCalendar();
         calEnd=dateFormatEnd.getCalendar();
         Intent intent = new Intent(Intent.ACTION_EDIT);

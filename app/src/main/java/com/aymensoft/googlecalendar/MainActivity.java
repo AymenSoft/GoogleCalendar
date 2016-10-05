@@ -51,12 +51,12 @@ public class MainActivity extends AppCompatActivity {
         calEnd=dateFormatEnd.getCalendar();
         Intent intent = new Intent(Intent.ACTION_EDIT);
         intent.setType("vnd.android.cursor.item/event");
-        intent.putExtra("title", "Test Event");
+        intent.putExtra("title", "Title Event");
         intent.putExtra("description", "This is a sample description");
         intent.putExtra("beginTime", calStart.getTimeInMillis());
         intent.putExtra("endTime", calEnd.getTimeInMillis());
         intent.putExtra("allDay", false);
-        intent.putExtra("eventLocation", "School");
+        intent.putExtra("eventLocation", "Address");
         intent.putExtra("eventTimezone", "Africa/Tunisia");
         intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         startActivity(intent);

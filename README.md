@@ -1,4 +1,4 @@
-# MyImageViewZoom
+# GoogleCalendar
 <p>Simply add events to Google Agenda</p>
 <p>1-add permissions to Manifest</p>
 <pre style="background-color:#2b2b2b;color:#a9b7c6;font-family:'Courier New';font-size:12,0pt;"><span style="color:#e8bf6a;">&lt;uses-permission </span><span style="color:#9876aa;">android</span><span style="color:#bababa;">:name=</span><span style="color:#6a8759;">&quot;android.permission.READ_CALENDAR&quot; </span><span style="color:#e8bf6a;">/&gt;
